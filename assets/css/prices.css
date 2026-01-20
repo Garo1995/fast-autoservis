@@ -1,0 +1,49 @@
+@import "../font/font.css";
+
+.for-price-bg{
+    min-height: 650px;
+}
+
+.for-price-bg .seasonal-tire-change {
+    margin-top: -35px;
+}
+.puncture-repair__table__min{
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+}
+.tire-change__margin{
+    margin-top: 40px;
+}
+.additional-services__info{
+    max-width: 930px;
+    margin: 25px auto 0;
+}
+.markup-for-all-work{
+    margin-top: 25px;
+}
+.markup-for-all-work table tr td{
+    text-align: center;
+}
+
+
+
+@media (max-width: 991.98px){
+    .for-price-bg {
+        min-height: 380px;
+    }
+
+    .tire-change__margin .tire-puncture-repair__table table{
+        width: 980px;
+    }
+
+}
+@media (max-width: 767.98px){
+    .tire-change__mob .tire-puncture-repair__table table{
+        width: 700px;
+    }
+
+    .markup-for-all-work .tire-puncture-repair__table table{
+        width: 760px;
+    }
+}

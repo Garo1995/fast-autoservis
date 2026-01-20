@@ -1,0 +1,163 @@
+@import "../font/font.css";
+
+.get-full-information__fon{
+    height: 271px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.get-full-information__min{
+    padding-top: 130px;
+}
+.get-full-information__info{
+    max-width: 970px;
+    width: 100%;
+    padding-left: 7px;
+    border-left: 2px solid rgb(255, 255, 255);
+}
+
+.get-full-information__text{
+    max-width: 470px;
+    width: 100%;
+}
+.get-full-information__text strong{
+    font-size: 27px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.212;
+    text-align: left;
+}
+.help-needed-leave__form__info{
+    max-width: 470px;
+    width: 100%;
+}
+.help-needed-leave__form{
+    width: 100%;
+
+}
+.get-full-information__info .help-needed-leave-request__inp{
+    max-width: 221px;
+}
+.get-full-information__info .help-needed-leave-request__inp input{
+    border-left: 1px solid rgb(255,255,255);
+    border-right: 1px solid rgb(255,255,255);
+    border-bottom: 1px solid rgb(255,255,255);
+    background: unset;
+    color: white;
+}
+.get-full-information__info .help-needed-leave-request__inp input::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+.get-full-information__info  .help-needed-leave-request__inp label:after{
+    background: rgba(0, 114, 200, 0.99);
+}
+.get-full-information__info  .help-needed-leave-request__inp label:before{
+    background: rgba(13, 124, 208, 0.99);
+
+}
+.get-full-information__btn button{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3.942px 10.269px 15.52px 0.48px rgba(0, 0, 0, 0.09);
+    width: 180px;
+    height: 43px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 136, 240);
+    text-transform: uppercase;
+}
+.get-full-information__btn button:hover{
+    color: white;
+    background: rgb(0, 136, 240);
+
+}
+
+@media (max-width: 1899.98px) {
+    .get-full-information__fon {
+        background-position: bottom;
+    }
+}
+@media (max-width: 1169.98px){
+    .get-full-information__fon {
+        background-image: url("../img/cars-sloi2.png")!important;
+        background-position: center;
+        height: auto;
+
+    }
+    .get-full-information__min {
+        padding-top: 0;
+        height: 192px;
+        display: flex;
+        align-items: center;
+
+    }
+    .get-full-information__info {
+        max-width: 1025px;
+    }
+}
+@media (max-width:991.98px){
+
+    .get-full-information__info .help-needed-leave-request__inp {
+        max-width: 221px;
+        margin-bottom: 0;
+    }
+    .get-full-information__text strong {
+        font-size: 20px;
+    }
+    .get-full-information__text {
+        max-width: 285px;
+        width: 100%;
+    }
+    .get-full-information__btn button {
+        width: 165px;
+    }
+}
+@media (max-width: 767.98px){
+    .get-full-information__min {
+        min-height: 300px;
+    }
+    .get-full-information__info{
+        flex-direction: column;
+        padding-left: 0;
+        border-left: none;
+    }
+    .get-full-information__text {
+        max-width: 411px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .get-full-information__text strong {
+        font-size: 18px;
+    }
+    .help-needed-leave__img{
+        display: none;
+    }
+    .get-full-information__btn{
+        margin-top: 30px;
+    }
+    .get-full-information__info .help-needed-leave-request__inp input{
+        border: 1px solid rgb(255,255,255);
+
+    }
+    .help-needed-leave__form {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width: 575.98px){
+    .get-full-information__text strong {
+        font-size: 17px;
+    }
+    .get-full-information__text {
+        margin-bottom: 25px;
+    }
+    .get-full-information__fon {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+}

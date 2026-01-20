@@ -1,0 +1,89 @@
+@import "../font/font.css";
+
+footer{
+    background-color: rgb(3, 3, 3);
+
+}
+.footer-min{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.footer-min__names + .footer-min__names{
+    margin-left: 80px;
+}
+.footer-min__names strong{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.267;
+    text-align: left;
+
+}
+.footer-min__names ul{
+    margin-top: 20px;
+}
+.footer-min__names ul li a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.375;
+    text-align: left;
+    margin-top: 5px;
+
+}
+.footer-logo{
+    width: 164px;
+    height: 101px;
+}
+.footer-href ul li{
+    margin-left: 5px;
+}
+.footer-href ul li a{
+    width: 25px;
+    height: 25px;
+}
+.footer-min__info .help-needed-leave-request__btn{
+    margin: 25px 0 30px;
+    max-width: 220px;
+}
+.footer-min__info .help-needed-leave-request__btn button{
+    box-shadow: 0 0 10px rgb(0, 136, 240);
+}
+.about-site{
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.about-site__logo{
+    padding: 20px 0;
+
+}
+.about-site__logo img{
+    width: 103px;
+    height: 29px;
+}
+
+@media (max-width: 767.98px){
+    .footer-min__names{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .footer-min__names ul {
+        margin-top: 10px;
+    }
+    .footer-min__names + .footer-min__names {
+        margin-left: 0;
+        margin-top: 25px;
+        text-align: center;
+
+
+    }
+    .footer-min__block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-min {
+        padding-top: 50px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-href{
+        margin: 0 auto;
+    }
+}
